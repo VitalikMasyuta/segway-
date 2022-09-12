@@ -1,0 +1,47 @@
+body {
+    font-family: 'Proxima Nova Rg';
+}
+
+header {
+    background: #323941;
+    margin-bottom: 18px ;
+    padding: 13px 212px 12.33px 208px;
+}
+
+header li {
+    display : inline-block ;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+#main-blok .logo {
+    padding: 0px 146px 20px 213px;
+}
+
+.catalog .catalog1 {
+    background: #323941;
+    text-align: center;
+    padding: 9px 293px 14px 267px;
+}
+
+.catalog .line {
+    background: #464f5a;
+height: 1px;
+width: 100%;
+}
+
+.catalog .catalog2{
+    background: #323941;
+    text-align: center;
+    padding: 9px 293px 14px 267px;
+}
+
+.free {
+    background: #009EFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: 'Proxima Nova Rg';
+}
+
