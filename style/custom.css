@@ -12,7 +12,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
     overflow: auto;
     margin: 0 auto;
     background: #4783c7;
@@ -20,18 +20,23 @@ body {
 
 
 
-.header-menu li{
-    text-transform: uppercase;
+.header-menu ul li{
     float: left;
-    padding: 13px 24px 13px 0px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    padding: 13px 12px;
 }
 .header-menu li a {
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 13px 12px;
+}
+
+.header-menu li a:hover {
+border-bottom: 2px solid white;
 }
 
 .container .basket {
@@ -39,26 +44,54 @@ body {
     padding: 11px 0px;
     text-align: center;
 }
-.container .adr {
+.container .inst {
     float: right;
     padding: 13px 0px 13px 24px;
     text-decoration: none;
     color: white;
 }
+.container .tel {
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 7px 14px;
+}
 
 
 
 #main-block .logo {
-    padding: 18px 0px;
+    padding: 18px 12px;
     float: left;
 }
 
 #main-block .director {
     float: right;
-    padding: 25px 20px 30px 13px; 
-
+    padding: 25px 94px 30px 13px; 
 }
-
+.direcrot .question {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 119.3%;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #009EFF;
+}
+.director p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 119.3%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #323941;
+}
 .container .foto_dir {
     float: right;
     padding: 20px 0px;
