@@ -5,6 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SegWay+</title>
+
+    <meta name="description" content="Learning: Appeal to page elements through selectors" />
+    <meta name="keywords" content="selectors, class, id, investigation" />
+
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.png">
+
+    <link rel="mask-icon" href="./img/favicon.png" color="#fff">
+
+    <meta name="og:url" content="#" /> <!--Domain site url-->
+    <meta name="og:title" content="SegWay" />
+    <meta name="og:description" content="SegWay website" />
+    <meta name="og:type" content="article" />
+    <meta name="og:image" content="./img/header_bg.png" />
+    <meta property="og:image:width" content="350" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:image:alt" content="selector" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/custom.css">
     <link rel="stylesheet" href="./fonts/Proximanova/fonts.css">
@@ -12,7 +34,7 @@
 <body>
     <header class="container">
         <div>
-            <nav class="header-menu">
+            <nav class="header-menu fl">
                 <ul>
                     <li><a href="#">reviews</a></li>
                     <li><a href="#">shipping and payment</a></li>
@@ -21,59 +43,128 @@
                     <li><a href="#">contacts</a></li>
                 </ul>
             </nav>
-            <adress class="tel">
-                <a href="tel:+18888888888" class="tel">+1 (888) 888-88-88</a>
+            <adress>
+                <a href="tel:+18888888888" class="tel fr">+1 (888) 888-88-88</a>
             </adress>
-            <address class="inst">
+            <address class="inst fr">
                 <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
             </address>
-            <div class="basket">
+            <div class="basket fr">
                 <a href="#"><img src="./img/basket.png" alt="basket"></a>
             </div>
         </div>       
     </header>
     <main id="main-block">
-    <div class="container">
-        <a href="#" class="logo fl">
-            <img src="./img/logo.png" alt="Seg Way California">
-        </a>
+        <div class="container">
+            <a href="#" class="logo fl">
+                <img src="./img/logo.png" alt="Seg Way California">
+            </a>
         <div class="director fr">
             <p>John Smith</p>
             <a href="mailto:johnsmith@gmail.com" class="question">ask a question<br>to the director</a>
         </div>    
             <img src="./img/ellipse.png" alt="Director John Smoth" class="foto_dir">
-    </div>
-    <section class="catalog">
-        <div class="catalog1">
-            <a href="#"><img src="./img/kse22.png" alt="KSE 22"></a>
-            <a href="#"><img src="./img/kses1l.png" alt="KS ES1L"></a>
-            <a href="#"><img src="./img/ksairt15.png" alt="KS AIR T15"></a>
-            <a href="#"><img src="./img/ksf30.png" alt="KS F30"></a>
-            <a href="#"><img src="./img/kse45.png" alt="KS E45"></a>
-            <a href="#"><img src="./img/ksmax.png" alt="KS MAX"></a>
-            <a href="#"><img src="./img/ksmaxgrey.png" alt="KS MAX GREY"></a>
         </div>
-        <div class="line"></div>
-        <div class="catalog2">
-            <a href="#"><img src="./img/kses2.png" alt="KS ES2"></a>
-            <a href="#"><img src="./img/kses3.png" alt="KS ES3"></a>
-            <a href="#"><img src="./img/ekszinge8.png" alt="EKS ZING E8"></a>
-            <a href="#"><img src="./img/ekszinge10.png" alt="EKS ZING E10"></a>
-            <a href="#"><img src="./img/ekszinge12.png" alt="EKS ZING E12"></a>
-            <a href="#"><img src="./img/kses4.png" alt="KS ES4"></a>
-            <a href="#"><img src="./img/accessories.png" alt="Accessories"></a>
-        </div>
-    </section>
-    <div class="free">
+        <section>
+            <div class="catalog container">
+                <figure>
+                    <a href="#"><img src="./img/kse22.png" alt="KSE 22"></a>
+                    <figcaption>kse 22</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/kses1l.png" alt="KS ES1L"></a>
+                    <figcaption>ks es1l</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/ksairt15.png" alt="KS AIR T15"></a>
+                    <figcaption>ks air t15</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/ksf30.png" alt="KS F30"></a>
+                    <figcaption>ks f30</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/kse45.png" alt="KS E45"></a>
+                    <figcaption>ks e45</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/ksmax.png" alt="KS MAX"></a>
+                    <figcaption>ks max</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/ksmaxgrey.png" alt="KS MAX GREY"></a>
+                    <figcaption>ks max</figcaption>
+                </figure>
+            </div>
+            <div class="line">
+            </div>
+            <div class="catalog container">
+                <figure>
+                    <a href="#"><img src="./img/kses2.png" alt="KS ES2"></a>
+                    <figcaption>ks es2</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/kses3.png" alt="KS ES3"></a>
+                    <figcaption>ks es3</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/ekszinge8.png" alt="EKS ZING E8"></a>
+                    <figcaption>eks zing e8</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/ekszinge10.png" alt="EKS ZING E10"></a>
+                    <figcaption>eks zing e10</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/ekszinge12.png" alt="EKS ZING E12"></a>
+                    <figcaption>eks zing e12</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/kses4.png" alt="KS ES4"></a>
+                    <figcaption>ks es4</figcaption>
+                </figure>
+                <figure>
+                    <a href="#"><img src="./img/accessories.png" alt="Accessories"></a>
+                    <figcaption>accessories</figcaption>
+                </figure>
+            </div>
+        </section>
+
+    <div class="free container">
         <p>free 1 dayshipping within california.</p>
     </div>
-    <img src="./img/instock.png">
-        <h1>segway<br>
-            ninebot<br>
-            kickscooter<br>
-            max
-        </h1>
-        <p>Add an extended warranty from Extend</p>
+    <section class="main container">
+        <ul class="instock">
+        <li><img src="./img/instock.png"></li>
+        <li><h1>segway ninebot kickscooter max</h1></li>
+        </ul>
+        <img src="./img/segwaybig.png" alt="SegWay+" class="s">
+        <div class="form box">
+            <h3>Add an extended warranty from <b>Extend</b></h3>
+            <button><label><input type="radio" name="status1">1 Year - $139</label></button>
+            <button><label><input type="radio" name="status1">2 Year - $209</label></button>
+            <button><label><input type="radio" name="status1">3 Year - $279</label></button>
+            <div class="price">
+                <ul>
+                    <li><p class="price1">$1049.99</p></li>
+                    <li><p class="price2">$949.99</p></li>
+                </ul>
+                <div class="center">
+                    <img src="./img/img_form.png" alt="">
+                    <p>Segway Protective Gear Set as a gift</p>
+                </div>   
+            </div>
+            <div class="form_button">
+                <button>BUY IT Now</button>
+                <button>ADD TO CART</button>
+            </div>
+        </div>
+            
+            
+            
+        
+        
+    </section>
     </main>
     <footer>
         

@@ -10,20 +10,33 @@ body {
     font-family: 'Proxima Nova Rg';
 }
 
-.container {
-    width: 100%;
-    max-width: 1200px;
-    overflow: auto;
-    margin: 0 auto;
-    background: #4783c7;
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    height: 278px;
+    width: 542px;
 }
 
+.container {
+    width: 100%;
+    max-width: 1127px;
+    overflow: auto;
+    margin: 0 auto;
+    background: #7eabdf;
+}
 
+.header-menu {
+    overflow: hidden;
+}
+.header-menu ul {
+    overflow: hidden;
+    
+}
 
 .header-menu ul li{
     float: left;
     padding: 13px 12px;
 }
+
 .header-menu li a {
     color: white;
     text-decoration: none;
@@ -36,7 +49,7 @@ body {
 }
 
 .header-menu li a:hover {
-border-bottom: 2px solid white;
+    border: 2px solid white;
 }
 
 .container .basket {
@@ -58,19 +71,23 @@ border-bottom: 2px solid white;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    padding: 7px 14px;
+    padding: 13px 14px;
+}
+
+.container address {
+    overflow: hidden;
 }
 
 
 
 #main-block .logo {
-    padding: 18px 12px;
+    padding: 18px 24px;
     float: left;
 }
 
 #main-block .director {
     float: right;
-    padding: 25px 94px 30px 13px; 
+    padding: 25px 61px 30px 13px; 
 }
 .direcrot .question {
     font-weight: 400;
@@ -96,30 +113,116 @@ border-bottom: 2px solid white;
     float: right;
     padding: 20px 0px;
 }
-.catalog .catalog1 {
-    background: #323941;
+
+
+.catalog figure {
+    float: left;
+    padding: 9px 13px 14px 13px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
     text-align: center;
-    padding: 9px 293px 14px 267px;
+    text-transform: uppercase;
 }
 
-.catalog .line {
+.catalog figure a{
+    color: #84888d;
+    padding: 70px 28px 34px 28px;
+}
+
+.catalog figure a:hover {
+    border: 1px solid #009EFF;
+    ;
+}
+.line {
     background: #464f5a;
 height: 1px;
 width: 100%;
 }
 
-.catalog .catalog2{
-    background: #323941;
-    text-align: center;
-    padding: 9px 293px 14px 267px;
-}
+
 
 .free {
     background: #009EFF;
     text-transform: uppercase;
     text-align: center;
-    padding: 12px;
+    padding: 12px 0px;
     color: white;
-    font-family: 'Proxima Nova Rg';
+}
+
+.instock {
+    float: left;
+    padding: 45px 0px 10px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 87.3%;
+    text-transform: uppercase;
+    float: left;
+    width: 567px;
+}
+
+.main .s {
+    float: right;
+}
+
+.instock img {
+    padding-bottom: 11px;
+}
+.form {
+    float: left;
+    border: 2px solid #323941;
+    padding: 20px;
+}
+
+.form h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.form button {
+    padding-right: 8px;
+    width: 160px;
+    height: 36px;
+    margin-right: 8px;
+    float: left;
+}
+
+.price .price1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: line-through;
+    color: #323941;
+}
+.price .price2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #323941;
+}
+.price .center {
+    float: right;
+}
+.center p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #009EFF;
+}
+.form .price {
+    float: left;
+}
+
+.form_button {
+    float: left;
+}
+.form_button button {
+    width: 240px;
+    height: 40px;
 }
 
