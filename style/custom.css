@@ -10,11 +10,7 @@ body {
     font-family: 'Proxima Nova Rg';
 }
 
-.box {
-    border: 1px solid rgba(0, 0, 0, 0.705);
-    height: 278px;
-    width: 542px;
-}
+
 
 .container {
     width: 100%;
@@ -44,12 +40,15 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 32px;
     padding: 13px 12px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 .header-menu li a:hover {
-    border: 2px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 
 .container .basket {
@@ -99,6 +98,10 @@ body {
     text-transform: lowercase;
     color: #009EFF;
 }
+.director .question:hover {
+    text-decoration: none;
+    color: #323941;
+}
 .director p {
     font-style: normal;
     font-weight: 600;
@@ -109,6 +112,7 @@ body {
     text-transform: uppercase;
     color: #323941;
 }
+
 .container .foto_dir {
     float: right;
     padding: 20px 0px;
@@ -131,8 +135,8 @@ body {
 }
 
 .catalog figure a:hover {
-    border: 1px solid #009EFF;
-    ;
+    background:#009EFF ;
+    
 }
 .line {
     background: #464f5a;
@@ -173,8 +177,10 @@ h1 {
 }
 .form {
     float: left;
-    border: 2px solid #323941;
+    border: 2px solid #999999;
     padding: 20px;
+    width: 504px;
+    margin-bottom: 20px;
 }
 
 .form h3{
@@ -191,6 +197,15 @@ h1 {
     float: left;
 }
 
+.price {
+    width: 500px;
+    position: relative;
+
+}
+.price ul{
+    width: 134px;
+    float: left;
+}
 .price .price1 {
     font-style: normal;
     font-weight: 400;
@@ -198,21 +213,30 @@ h1 {
     line-height: 22px;
     text-decoration: line-through;
     color: #323941;
+    margin-top: 30px;
+    width: 74px;
 }
 .price .price2{
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
     color: #323941;
+    width: 131px;
+    margin-bottom: 27px;
 }
 .price .center {
     float: right;
+    margin-top: 20px;
 }
 .center p {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #009EFF;
+    width: 154px;
+    position: absolute;
+    right: 171px;
+    bottom: 38px;
 }
 .form .price {
     float: left;
@@ -224,5 +248,33 @@ h1 {
 .form_button button {
     width: 240px;
     height: 40px;
+}
+
+.payment {
+    position: relative;
+}
+.payment li{
+    float: left;
+}
+.payment .payment_methods {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 15px;
+}
+.payment .payment_start {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #009EFF;
+}
+.payment li img {
+    padding-top: 4px;
+}
+.payment .payment_now {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6ACD68;
 }
 
