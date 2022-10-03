@@ -12,7 +12,7 @@ body {
 
 
 
-.container {
+.container-my {
     width: 100%;
     max-width: 1127px;
     overflow: auto;
@@ -53,18 +53,18 @@ header {
     border-right: 1px solid white;
 }
 
-.container .basket {
+.container-my .basket {
     float: right;
     padding: 11px 0px;
     text-align: center;
 }
-.container .inst {
+.container-my .inst {
     float: right;
     padding: 13px 0px 13px 24px;
     text-decoration: none;
     color: white;
 }
-.container .tel {
+.container-my .tel {
     float: right;
     text-decoration: none;
     color: white;
@@ -75,7 +75,7 @@ header {
     padding: 13px 14px;
 }
 
-.container address {
+.container-my address {
     overflow: hidden;
 }
 
@@ -115,7 +115,7 @@ header {
     color: #323941;
 }
 
-.container .foto_dir {
+.container-my .foto_dir {
     float: right;
     padding: 20px 0px;
 }
@@ -133,12 +133,19 @@ header {
     text-align: center;
     text-transform: uppercase;
     min-height: 130px;
-    min-width: 130px;
+    min-width: 158px;
 }
 
 .catalog figure a{
     color: #84888d;
     padding: 70px 28px 34px 28px;
+}
+
+.catalog_png {
+    min-height: 80px;
+}
+.catalog_png-accessories {
+    margin-top: 34px;
 }
 
 .catalog figure a:hover {
@@ -176,6 +183,9 @@ h1 {
     width: 567px;
 }
 
+.main {
+    margin-bottom: 40px;
+}
 .main .s {
     float: right;
 }
@@ -187,7 +197,7 @@ h1 {
     float: left;
     border: 2px solid #999999;
     padding: 20px;
-    width: 504px;
+    width: 548px;
     margin-bottom: 20px;
 }
 
@@ -197,7 +207,7 @@ h1 {
     line-height: 22px;
     margin-bottom: 8px;
 }
-.form button {
+.form .form_button-1 {
     padding-right: 8px;
     width: 160px;
     height: 36px;
@@ -206,6 +216,29 @@ h1 {
 }
 .form button:hover {
     background: #009EFF;
+    color: white;
+}
+.form-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 40px;
+}
+.form_button-2 {
+    width: 220px;
+    margin-right: 0px;
+    height: 40px;
+}
+.form_button-2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px 50px
+}
+.form-2 .form_button-2:hover {
+    background: #009EFF;
+}
+
+.form-2 .form_button-2:hover a {
     color: white;
 }
 
@@ -320,12 +353,19 @@ h1 {
     background: #323941;
     width: 100%;
     height: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .video {
     position: relative;
     box-shadow: 0px -200px 150px -121px #e6e6e6 inset ;
+}
+.video .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex {
+    margin-bottom: 65px;
 }
 .video h2 {
     font-weight: 700;
@@ -344,4 +384,86 @@ h1 {
     right: 78px;
 }
 
+.tabs button svg {
+    margin-right: 20px;
+}
+.tabs ul{
+    justify-content: space-between;
+}
 
+.tabs h3 {
+    padding-left: 20px;
+    padding-top: 35px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.tabs p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 20px;
+}
+.in_tabs {
+    display: flex;
+    justify-content: space-between;
+    background: #dfdfdf;
+    min-height: 230px;
+    margin-bottom: 60px;
+}
+
+.in_tabs ul {
+    float: left;
+}
+.in_tabs img {
+    float: right;
+    padding: 15px 25px;
+} 
+
+.h_access {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 119.3%;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.card {
+    border: 0px;
+    align-items: center;
+}
+.card img {
+    max-width: 180px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.card-body h5 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card-body p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 119.3%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-body .price3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.z-5 {
+    z-index: 5;
+}
