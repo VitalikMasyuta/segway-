@@ -168,6 +168,59 @@
         .carousel_mobile .catalog {
             max-width: 120px;
         }
+        h1 {
+            font-size: 58px;
+            text-align: center;
+            padding-left: 0px;
+        }
+        .wrapper {
+            align-items: center;
+        }
+        .wrapper_img {
+            display: none;
+        }
+        .main {
+            flex-direction: column;
+            align-items: center;
+        }
+        .wrapper__item1 {
+            text-align: center;
+        }
+        .wrapper_img_mobile {
+            width: 400px
+        }
+        .benefits {
+            right: 185px;
+            width: 400px;
+            bottom: 0px;
+            top: auto;
+        }
+        .flex {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .flex h2 {
+            text-align: center;
+        }
+        .card_price p {
+            min-height: 110px;
+        }
+        .card_price h5 {
+            min-height: 70px;
+        }
+        .card-body .price3 {
+            min-height: auto;
+        }
+        .absolute3 {
+            right: 50px;
+        }
+        .absolute6 {
+            left: 43px;
+        }
+        .absolute7 {
+            left: 70px;
+        }
 
         
     }    
