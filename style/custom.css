@@ -189,10 +189,33 @@ h1 {
 
 .main {
     margin-bottom: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
 }
 .main .s {
     float: right;
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .instock img {
     padding-bottom: 11px;
@@ -247,8 +270,11 @@ h1 {
 }
 
 .price {
-    width: 500px;
-    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
 
 }
 .price ul{
@@ -274,18 +300,14 @@ h1 {
     margin-bottom: 27px;
 }
 .price .center {
-    float: right;
-    margin-top: 20px;
+    padding: 0px 44px;
 }
 .center p {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #009EFF;
-    width: 154px;
-    position: absolute;
-    right: 171px;
-    bottom: 38px;
+    
 }
 .form .price {
     float: left;
@@ -428,6 +450,9 @@ h1 {
     float: right;
     padding: 15px 25px;
 } 
+.tabs_eart {
+    width: 361px;
+}
 
 .h_access {
     font-weight: 700;
@@ -654,8 +679,11 @@ h1 {
     line-height: 119.3%;
     width: 456px;
 }
-.battery p {
-    
+.carousel_mobile {
+    display: none;
+}
+#main-block .carousel_mobile {
+    display: none;
 }
 
 
