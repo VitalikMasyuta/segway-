@@ -29,6 +29,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/reset.css">
@@ -36,13 +37,19 @@
     <link rel="stylesheet" href="./style/media.css">
     <link rel="stylesheet" href="./fonts/Proximanova/fonts.css">
 
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
     <header>
         <div class="container-my adaptive980">
-            <button class="header__button">&#9776
+
+            <button class="header__button">
+                <img src="./img/header_icons_button.svg" alt="Menu">
                 <div class="header__dropdawn-menu">
                     <nav class="header-menu fl">
                         <ul>
@@ -55,32 +62,47 @@
                     </nav>
                 </div>
             </button>
-                <div class="header__dropdawn-menu">
-                    <nav class="header-menu fl">
-                        <ul>
-                            <li><a href="#">reviews</a></li>
-                            <li><a href="#">shipping and payment</a></li>
-                            <li><a href="#">wholesale</a></li>
-                            <li><a href="#">blog</a></li>
-                            <li><a href="#">contacts</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            <div>
-                <adress>
-                    <a href="tel:+18888888888" class="tel fr">+1 (888) 888-88-88</a>
-                </adress>
-                <address class="inst fr">
-                    <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
-                </address>
-                <div class="basket fr">
-                    <a href="#"><img src="./img/basket.png" alt="basket"></a>
+            <div class="header__dropdawn-menu">
+                <nav class="header-menu fl">
+                    <ul>
+                        <li><a href="#">reviews</a></li>
+                        <li><a href="#">shipping and payment</a></li>
+                        <li><a href="#">wholesale</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="logo_mobile">
+                <a href="#"><img src="./img/logo_mobile.png" alt="Logo"></a>
+            </div>
+            <div class="header_icons">
+                <div class="header_icons_flex">
+                    <adress>
+                        <a href="tel:+18888888888" class="tel fr">+1 (888) 888-88-88</a>
+
+                    </adress>
+                    <address class="inst fr">
+                        <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
+
+                    </address>
+                    <div class="basket fr">
+                        <a href="#"><img src="./img/basket.png" alt="basket"></a>
+
+                    </div>
+                    <div class="mobile_icons">
+                        <a href="tel:+18888888888" class="tel_mobile">
+                            <img src="./img/tel_mobile.png" alt="Call">
+                        </a>
+                        <a href="#" class="insta_mobile"><img src="./img/instagram_mobile.png" alt="Instagramm"></a>
+                        <a href="#" class="bascet_mobile"><img src="./img/bascet_mobile.png" alt="Bascet"></a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <main id="main-block">
-        <div class="container-my">
+        <div class="container-my mobile_none">
             <a href="#" class="logo fl">
                 <img src="./img/logo.png" alt="Seg Way California">
             </a>
@@ -90,7 +112,96 @@
             </div>
             <img src="./img/ellipse.png" alt="Director John Smoth" class="foto_dir">
         </div>
-        <section class="background">
+        <section>
+            <div class="carousel_mobile">
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img src="./img/kse22.png" alt="KSE 22"></a>
+                        <figcaption>kse 22</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img src="./img/kses1l.png" alt="KS ES1L"></a>
+                        <figcaption>ks es1l</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img src="./img/ksairt15.png" alt="KS AIR T15"></a>
+                        <figcaption>ks air t15</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img src="./img/ksf30.png" alt="KS F30"></a>
+                        <figcaption>ks f30</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img src="./img/kse45.png" alt="KS E45"></a>
+                        <figcaption>ks e45</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img src="./img/ksmax.png" alt="KS MAX"></a>
+                        <figcaption>ks max</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img src="./img/ksmaxgrey.png" alt="KS MAX GREY"></a>
+                        <figcaption>ks max</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure class="catalog__figure">
+                        <a href="#"><img class="catalog_png" src="./img/kses2.png" alt="KS ES2"></a>
+                        <figcaption>ks es2</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img class="catalog_png" src="./img/kses3.png" alt="KS ES3"></a>
+                        <figcaption>ks es3</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img class="catalog_png" src="./img/ekszinge8.png" alt="EKS ZING E8"></a>
+                        <figcaption>eks zing e8</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img class="catalog_png" src="./img/ekszinge10.png" alt="EKS ZING E10"></a>
+                        <figcaption>eks zing e10</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img class="catalog_png" src="./img/ekszinge12.png" alt="EKS ZING E12"></a>
+                        <figcaption>eks zing e12</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img class="catalog_png" src="./img/kses4.png" alt="KS ES4"></a>
+                        <figcaption>ks es4</figcaption>
+                    </figure>
+                </div>
+                <div class="catalog">
+                    <figure>
+                        <a href="#"><img class="catalog_png-accessories" src="./img/accessories.png"
+                                alt="Accessories"></a>
+                        <figcaption>accessories</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="background carousel_none">
             <div class="catalog container-my">
                 <figure>
                     <a href="#"><img src="./img/kse22.png" alt="KSE 22"></a>
@@ -160,64 +271,83 @@
             </div>
         </section>
         <section class="main container-my">
-            <ul class="instock">
-                <li><img src="./img/instock.png"></li>
-                <li>
-                    <h1>segway ninebot kickscooter max</h1>
-                </li>
-            </ul>
-            <img src="./img/segwaybig.png" alt="SegWay+" class="s">
-            <div class="form box">
-                <h3>Add an extended warranty from <b>Extend</b></h3>
-                <button class="form_button-1"><label><input type="radio" name="status1">1 Year - $139</label></button>
-                <button class="form_button-1"><label><input type="radio" name="status1">2 Year - $209</label></button>
-                <button class="form_button-1"><label><input type="radio" name="status1">3 Year - $279</label></button>
-                <div class="price">
-                    <ul>
+            <div class="wrapper">
+                <div class="wrapper__item1">
+                    <ul class="instock">
+                        <li><img src="./img/instock.png"></li>
                         <li>
-                            <p class="price1">$1049.99</p>
-                        </li>
-                        <li>
-                            <p class="price2">$949.99</p>
+                            <h1>segway ninebot kickscooter max</h1>
                         </li>
                     </ul>
-                    <div class="center">
-                        <img src="./img/img_form.png" alt="accessories">
-                        <p>Segway Protective Gear Set as a gift</p>
+                </div>
+                <div class="wrapper_img_mobile">
+                    <img src="./img/segwaybig.png" alt="SegWay+" class="s">
+                </div>
+                <div class="form box ">
+                    <h3>Add an extended warranty from <b>Extend</b></h3>
+                    <div class="form_button">
+                        <button class="form_button-1"><label><input type="radio" name="status1">1 Year -
+                                $139</label></button>
+                        <button class="form_button-1"><label><input type="radio" name="status1">2 Year -
+                                $209</label></button>
+                        <button class="form_button-1"><label><input type="radio" name="status1">3 Year -
+                                $279</label></button>
+                    </div>
+                    <div class="price">
+                        <div>
+                            <ul>
+                                <li>
+                                    <p class="price1">$1049.99</p>
+                                </li>
+                                <li>
+                                    <p class="price2">$949.99</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="center">
+                            <p>Segway Protective Gear Set as a gift</p>
+                        </div>
+
+                        <div>
+                            <img src="./img/img_form.png" alt="accessories">
+                        </div>
+                    </div>
+                    <div class="form-2">
+                        <button class="form_button-2"><a href="#">buy it now</a></button>
+                        <button class="form_button-2"><a href="#">add to cart</a></button>
                     </div>
                 </div>
-                <div class="form-2">
-                    <button class="form_button-2"><a href="#">buy it now</a></button>
-                    <button class="form_button-2"><a href="#">add to cart</a></button>
+                <div class="payment">
+                    <ul>
+                        <li class="payment_methods">Payment Methods:</li>
+                        <li class="payment_start">Starting at $55/mo with</li>
+                        <li><img src="./img/startingat55.png" alt=""></li>
+                        <li class="payment_now">. Prequalify now</li>
+                    </ul>
+                </div>
+                <div class="payments">
+                    <ul>
+                        <li><img src="./img/payments/amek.png" alt=""></li>
+                        <li><img src="./img/payments/applepay.png" alt=""></li>
+                        <li><img src="./img/payments/bitcoin.png" alt=""></li>
+                        <li><img src="./img/payments/bitcoingreen.png" alt=""></li>
+                        <li><img src="./img/payments/dogicoin.png" alt=""></li>
+                        <li><img src="./img/payments/bluedollar.png" alt=""></li>
+                        <li><img src="./img/payments/discover.png" alt=""></li>
+                        <li><img src="./img/payments/dogicoinbrown.png" alt=""></li>
+                        <li><img src="./img/payments/eternium.png" alt=""></li>
+                        <li><img src="./img/payments/jcb.png" alt=""></li>
+                        <li><img src="./img/payments/l.png" alt=""></li>
+                        <li><img src="./img/payments/mastercard.png" alt=""></li>
+                        <li><img src="./img/payments/paypal.png" alt=""></li>
+                        <li><img src="./img/payments/bluedollar.png" alt=""></li>
+                        <li><img src="./img/payments/v.png" alt=""></li>
+                        <li><img src="./img/payments/visa.png" alt=""></li>
+                    </ul>
                 </div>
             </div>
-            <div class="payment">
-                <ul>
-                    <li class="payment_methods">Payment Methods:</li>
-                    <li class="payment_start">Starting at $55/mo with</li>
-                    <li><img src="./img/startingat55.png" alt=""></li>
-                    <li class="payment_now">. Prequalify now</li>
-                </ul>
-            </div>
-            <div class="payments">
-                <ul>
-                    <li><img src="./img/payments/amek.png" alt=""></li>
-                    <li><img src="./img/payments/applepay.png" alt=""></li>
-                    <li><img src="./img/payments/bitcoin.png" alt=""></li>
-                    <li><img src="./img/payments/bitcoingreen.png" alt=""></li>
-                    <li><img src="./img/payments/dogicoin.png" alt=""></li>
-                    <li><img src="./img/payments/bluedollar.png" alt=""></li>
-                    <li><img src="./img/payments/discover.png" alt=""></li>
-                    <li><img src="./img/payments/dogicoinbrown.png" alt=""></li>
-                    <li><img src="./img/payments/eternium.png" alt=""></li>
-                    <li><img src="./img/payments/jcb.png" alt=""></li>
-                    <li><img src="./img/payments/l.png" alt=""></li>
-                    <li><img src="./img/payments/mastercard.png" alt=""></li>
-                    <li><img src="./img/payments/paypal.png" alt=""></li>
-                    <li><img src="./img/payments/bluedollar.png" alt=""></li>
-                    <li><img src="./img/payments/v.png" alt=""></li>
-                    <li><img src="./img/payments/visa.png" alt=""></li>
-                </ul>
+            <div class="wrapper_img">
+                <img src="./img/segwaybig.png" alt="SegWay+" class="s">
             </div>
         </section>
         <section class="tabs container-my">
@@ -251,7 +381,7 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        Delivery within 1 business day
+                        <span>Delivery within 1 business day</span>
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -301,7 +431,7 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        Basic 1 year warranty
+                        <span>Basic 1 year warranty</span>
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -324,7 +454,7 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        After Sales Support
+                        <span>After Sales Support</span>
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -339,7 +469,7 @@
                             <circle cx="4.5" cy="4.5" r="4" fill="#009EFF" stroke="white" />
                             <circle cx="28.5" cy="31.5" r="4" fill="#009EFF" stroke="white" />
                         </svg>
-                        Up to 40 miles per charge
+                        <span>to 40 miles per charge</span>
                     </button>
                 </li>
             </ul>
@@ -423,7 +553,7 @@
         </section>
         <section class="container">
             <h2 class="h_access">acessorries</h2>
-            <div>
+            <div class="card_price">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
@@ -569,7 +699,7 @@
             <div style="border: 0px;" class="img_shadow">
                 <img src="./img/pair.png" alt="pair-in-segway" style="width: 100%;">
             </div>
-            <div class="container-my">
+            <div class="container-my foto_card">
                 <div class="h2_foto_card">
                     <h2>impressive features</h2>
                 </div>
@@ -638,7 +768,7 @@
 
             </div>
         </section>
-        <section>
+        <!-- <section>
             <div class="battery">
                 <div>
                     <h2>Smart battery Management system (Smart-BMS)</h2>
@@ -650,7 +780,7 @@
                     <img src="./img/battery2.png" alt="Battery">
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer>
 
@@ -659,6 +789,70 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
         </script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- <script>
+        $(window).on('load resize', function() {
+        if ($(window).width() < 640) {
+        $('#items:not(.slick-initialized)').slick({
+            centerMode: true,
+            dots: true,
+            infinite: true,
+            speed: 100,
+            slidesToShow: 1
+          });
+        } else {
+          $("#items.slick-initialized").slick("unslick");
+        }
+      });
+      </script> -->
+    <script class="script_carousel">
+        $(document).on('ready', function () {
+
+            $(".carousel_mobile").slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 6,
+                slidesToScroll: 6,
+                autoplay: true,
+                autoplaySpeed: 2000,
+
+                pauseOnHover: true,
+
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 5,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    }
+
+                ]
+
+
+            });
+        });
+
+    </script>
+
 </body>
 
 </html>

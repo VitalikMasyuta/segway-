@@ -20,21 +20,29 @@ body {
     overflow: auto;
     margin: 0 auto;
 }
+
 header {
     background: #323941;
 }
+
 .header__button {
     display: none;
 }
+
 .header-menu {
     overflow: hidden;
 }
+
 .header-menu ul {
     overflow: hidden;
-    
+
 }
 
-.header-menu ul li{
+.logo_mobile {
+    display: none;
+}
+
+.header-menu ul li {
     float: left;
     padding: 13px 12px;
 }
@@ -62,12 +70,14 @@ header {
     padding: 11px 0px;
     text-align: center;
 }
+
 .container-my .inst {
     float: right;
     padding: 13px 0px 13px 24px;
     text-decoration: none;
     color: white;
 }
+
 .container-my .tel {
     float: right;
     text-decoration: none;
@@ -92,8 +102,9 @@ header {
 
 #main-block .director {
     float: right;
-    padding: 25px 61px 30px 13px; 
+    padding: 25px 61px 30px 13px;
 }
+
 .director .question {
     font-weight: 400;
     font-size: 13px;
@@ -104,10 +115,12 @@ header {
     text-transform: lowercase;
     color: #009EFF;
 }
+
 .director .question:hover {
     text-decoration: none;
     color: #323941;
 }
+
 .director p {
     font-style: normal;
     font-weight: 600;
@@ -123,10 +136,18 @@ header {
     float: right;
     padding: 20px 0px;
 }
+
 .background {
     background: #323941;
 }
 
+.carousel_mobile .slick-next {
+    right: 8px;
+}
+
+.carousel_mobile .slick-next {
+    display: none;
+}
 
 .catalog figure {
     float: left;
@@ -140,7 +161,7 @@ header {
     min-width: 158px;
 }
 
-.catalog figure a{
+.catalog figure a {
     color: #84888d;
     padding: 70px 28px 34px 28px;
 }
@@ -148,24 +169,27 @@ header {
 .catalog_png {
     min-height: 80px;
 }
+
 .catalog_png-accessories {
     margin-top: 34px;
 }
 
 .catalog figure a:hover {
-    background:#009EFF ;
-    
+    background: #009EFF;
+
 }
+
 .line {
     background: #464f5a;
-height: 1px;
-width: 100%;
+    height: 1px;
+    width: 100%;
 }
 
 
 .free_back {
     background: #009EFF;
 }
+
 .free {
     text-transform: uppercase;
     text-align: center;
@@ -189,14 +213,44 @@ h1 {
 
 .main {
     margin-bottom: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
-.main .s {
-    float: right;
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
+
+.tel_mobile,
+.insta_mobile,
+.bascet_mobile,
+.wrapper_img_mobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .instock img {
     padding-bottom: 11px;
 }
+
 .form {
     float: left;
     border: 2px solid #999999;
@@ -205,12 +259,13 @@ h1 {
     margin-bottom: 20px;
 }
 
-.form h3{
+.form h3 {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 8px;
 }
+
 .form .form_button-1 {
     padding-right: 8px;
     width: 160px;
@@ -218,26 +273,31 @@ h1 {
     margin-right: 8px;
     float: left;
 }
+
 .form button:hover {
     background: #009EFF;
     color: white;
 }
+
 .form-2 {
     display: flex;
     justify-content: space-between;
     width: 500px;
     height: 40px;
 }
+
 .form_button-2 {
     width: 220px;
     margin-right: 0px;
     height: 40px;
 }
+
 .form_button-2 a {
     text-decoration: none;
     text-transform: uppercase;
     padding: 7px 50px
 }
+
 .form-2 .form_button-2:hover {
     background: #009EFF;
 }
@@ -247,14 +307,19 @@ h1 {
 }
 
 .price {
-    width: 500px;
-    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
 
 }
-.price ul{
+
+.price ul {
     width: 134px;
     float: left;
 }
+
 .price .price1 {
     font-style: normal;
     font-weight: 400;
@@ -265,7 +330,8 @@ h1 {
     margin-top: 30px;
     width: 74px;
 }
-.price .price2{
+
+.price .price2 {
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
@@ -273,20 +339,19 @@ h1 {
     width: 131px;
     margin-bottom: 27px;
 }
+
 .price .center {
-    float: right;
-    margin-top: 20px;
+    padding: 0px 44px;
 }
+
 .center p {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #009EFF;
-    width: 154px;
-    position: absolute;
-    right: 171px;
-    bottom: 38px;
+
 }
+
 .form .price {
     float: left;
 }
@@ -294,12 +359,14 @@ h1 {
 .form_button {
     float: left;
 }
+
 .form_button button {
     width: 240px;
     height: 40px;
     text-transform: uppercase;
     font-weight: 700;
 }
+
 .form_button button a {
     text-decoration: none;
     color: black;
@@ -307,6 +374,7 @@ h1 {
     height: 40px;
     padding: 12px 65px;
 }
+
 .form_button button a:hover {
     background: #009EFF;
     color: white;
@@ -315,24 +383,29 @@ h1 {
 .payment {
     position: relative;
 }
-.payment li{
+
+.payment li {
     float: left;
 }
+
 .payment .payment_methods {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     padding-right: 15px;
 }
+
 .payment .payment_start {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #009EFF;
 }
+
 .payment li img {
     padding-top: 4px;
 }
+
 .payment .payment_now {
     font-weight: 600;
     font-size: 18px;
@@ -345,7 +418,8 @@ h1 {
     width: 530px;
     height: 35px;
 }
-.payments ul li{
+
+.payments ul li {
     float: left;
     padding-right: 6px;
     padding-top: 10px;
@@ -362,15 +436,18 @@ h1 {
 
 .video {
     position: relative;
-    box-shadow: 0px -200px 150px -121px #e6e6e6 inset ;
+    box-shadow: 0px -200px 150px -121px #e6e6e6 inset;
 }
+
 .video .flex {
     display: flex;
     justify-content: space-between;
 }
+
 .flex {
     margin-bottom: 65px;
 }
+
 .video h2 {
     font-weight: 700;
     font-size: 50px;
@@ -379,7 +456,9 @@ h1 {
     padding-bottom: 30px;
     min-width: 312px;
 }
-.ellipseblue, .benefits {
+
+.ellipseblue,
+.benefits {
     float: right;
     margin-bottom: 40px;
 }
@@ -392,7 +471,8 @@ h1 {
 .tabs button svg {
     margin-right: 20px;
 }
-.tabs ul{
+
+.tabs ul {
     justify-content: space-between;
 }
 
@@ -405,6 +485,7 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
 .tabs p {
     font-weight: 400;
     font-size: 18px;
@@ -413,6 +494,7 @@ h1 {
     color: #323941;
     max-width: 557px;
 }
+
 .in_tabs {
     display: flex;
     justify-content: space-between;
@@ -424,10 +506,15 @@ h1 {
 .in_tabs ul {
     float: left;
 }
+
 .in_tabs img {
     float: right;
     padding: 15px 25px;
-} 
+}
+
+.tabs_eart {
+    width: 361px;
+}
 
 .h_access {
     font-weight: 700;
@@ -438,6 +525,7 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
 .card {
     border: 0px;
     align-items: center;
@@ -450,6 +538,7 @@ h1 {
     flex-wrap: nowrap;
     align-items: center;
 }
+
 .card-body h5 {
     font-weight: 700;
     font-size: 25px;
@@ -457,6 +546,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+
 .card-body p {
     font-weight: 400;
     font-size: 13px;
@@ -465,11 +555,13 @@ h1 {
     margin-bottom: 10px;
     max-width: 320px;
 }
+
 .card-body .price3 {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
 }
+
 .card-body button {
     border: 1px solid #C6C6C6;
     background: white;
@@ -482,6 +574,7 @@ h1 {
     line-height: 119.3%;
     margin-bottom: 50px;
 }
+
 .card-body button:hover {
     background: #009EFF;
     font-weight: 600;
@@ -489,15 +582,18 @@ h1 {
     line-height: 119.3%;
     color: #ffffff;
     border: 0px;
-    
+
 }
+
 .card-text {
     min-height: 62px;
     color: #999999;
 }
+
 .price3 {
     color: #323941;
 }
+
 .z-5 {
     z-index: 5;
 }
@@ -509,37 +605,45 @@ h1 {
     position: absolute;
     top: 20px;
 }
+
 .absolute2 {
     position: absolute;
     top: -13px;
 }
+
 .absolute3 {
     position: absolute;
     top: 13px;
     right: 121px;
 }
+
 .absolute4 {
     position: absolute;
     top: -3px;
 }
+
 .absolute5 {
     position: absolute;
-    
+
 }
+
 .absolute6 {
     position: absolute;
     top: 16px;
     left: 112px;
 }
+
 .absolute7 {
     position: absolute;
     top: 1px;
     left: 135px;
 }
+
 .absolute8 {
     position: absolute;
     top: -5px;
 }
+
 .absolute9 {
     position: absolute;
     top: 2px;
@@ -561,6 +665,7 @@ h1 {
     justify-content: center;
     margin-bottom: 80px;
 }
+
 .btn_card_bottom button {
     width: 230px;
     height: 50px;
@@ -570,25 +675,27 @@ h1 {
     text-transform: uppercase;
 
 }
+
 .btn_card_bottom button:hover {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #ffffff;
     background: #009EFF;
-    border: 0px; 
+    border: 0px;
 }
 
 .card_svg {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
 
 .foto_card_back {
     background: #F5F5F5;
 }
+
 .foto_card_back .h2_foto_card {
     display: flex;
     justify-content: center;
@@ -596,40 +703,49 @@ h1 {
     margin-top: 65px;
     margin-bottom: 85px;
 }
+
 .foto_card_back h2 {
     font-weight: 700;
     font-size: 50px;
     line-height: 119.3%;
 }
+
 .card_svg .card {
     background: #f5f5f5;
 }
+
 .card_svg img {
     width: 90px;
 }
+
 .card_svg h5 {
     color: #009EFF;
     font-weight: 300;
     font-size: 35px;
     line-height: 43px;
 }
+
 .card_svg p {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: #999999;
 }
+
 .img-card3 {
     padding-top: 12px;
 }
+
 .h5-card3 {
     margin-top: 8px;
 }
+
 .card_svg .img-card4 {
     width: 83px;
 }
+
 .img_shadow img {
-    box-shadow: -3px 1px 20px 14px rgba(0,0,0,0.75);
+    box-shadow: -3px 1px 20px 14px rgba(0, 0, 0, 0.75);
 }
 
 .battery {
@@ -645,17 +761,23 @@ h1 {
     float: right;
     z-index: 10;
 }
-.battery h2, p {
+
+.battery h2,
+p {
     color: #ffffff;
 }
-.battery h2{
+
+.battery h2 {
     font-weight: 700;
     font-size: 50px;
     line-height: 119.3%;
     width: 456px;
 }
-.battery p {
-    
+
+.carousel_mobile {
+    display: none;
 }
 
-
+#main-block .carousel_mobile {
+    display: none;
+}
