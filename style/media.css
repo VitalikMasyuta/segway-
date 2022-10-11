@@ -138,7 +138,7 @@
         }
     
     
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
 
         .header__dropdawn-menu {
             position: absolute;
@@ -187,7 +187,9 @@
             text-align: center;
         }
         .wrapper_img_mobile {
-            width: 400px
+            width: 400px;
+            display: block;
+            
         }
         .benefits {
             right: 185px;
@@ -221,9 +223,188 @@
         .absolute7 {
             left: 70px;
         }
+    }
 
+
+
+@media (max-width: 425px) {
+    .tel {
+        display: none;
+    }
+    .inst {
+        display: none;
+    }
+    .basket {
+        display: none;
+    }
+    .tel_mobile {
+        display: block;
+    }
+    .insta_mobile {
+        display: block;
+    }
+    .bascet_mobile {
+        display: block;
+    }
+    .mobile_icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .logo_mobile {
+        display: block;
+    }
+    header {
+        background: none;
+    }
+    .header_icons_flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .tel_mobile, .bascet_mobile {
+        padding: 0px 4px;
+        width: 31px;
+    }
+    .insta_mobile {
+        padding: 0px 4px;
+        width: 28px;
+    }
+    .mobile_none {
+        display: none;
+    }
+    h1 {
+        font-size: 33px;
+        max-width: 300px;
+    }
+    .wrapper_img_mobile {
+        display: block;
+        max-width: 380px;
+    }
+    .wrapper_img_mobile .s {
+        max-width: 370px;
+    }
+    .form_button-2 a {
+        padding: 7px 20px;
+        max-width: 300px ;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .price {
+        justify-content: space-evenly;
+    }
+    .center {
+        display: none;
+    }
+    .form_button {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
         
-    }    
+    }
+    .form .form_button-1{
+        height: 50px;
+    }
+    .form_button-2 {
+        max-width: 150px;
+    }
+    .form-2 {
+        max-width: 500px;
+        width: 100%;
+    }
+    .form h3 {
+        text-align: center;
+    }
+    .payment, .payments {
+        max-width: 380px;
+        height: auto;
+    }
+    .tabs span {
+        display: none;
+    }
+    .in_tabs {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video h2 {
+        padding-left: 0px;
+    }
+    .video iframe {
+        max-width: 400px;
+        padding-left: 0px;
+    }
+    .ellipseblue {
+        max-width: 350px;
+    }
+    .benefits {
+        max-width: 380px;
+        right: 24px;
+        bottom: -10px;
+    }
+    .card {
+        max-width: 380px;
+    }
+    .card_price p {
+        min-height: 65px;
+    }
+    .absolute3 {
+        right: 132px;
+    }
+    .absolute6 {
+        left: 122px;
+    }
+    .absolute7 {
+        left: 149px;
+    }
+    .foto_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
 
+@media (max-width: 375px) {
+        .wrapper_img_mobile {
+        max-width: 375px;
+    }
+    .form {
+        max-width: 375px;
+    }
+    .payment {
+        max-width: 370px;
+    }
+    .payments {
+        max-width: 370px;
+    }
+    .video iframe {
+        max-width: 375px;
+    }
+    .benefits {
+        max-width: 320px;
+        right: 27px;
+    }
+    .ellipseblue {
+        max-width: 300px;
+    }
+    .absolute3 {
+        right: 116px;
+    }
+    .absolute6 {
+        left: 110px;
+    }
+    .absolute7 {
+        left: 135px;
+    }
+    .foto_card_back h2 {
+        font-size: 40px;
+    }
+}
 
-        

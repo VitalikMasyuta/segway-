@@ -33,6 +33,9 @@ header {
     overflow: hidden;
     
 }
+.logo_mobile {
+    display: none;
+}
 
 .header-menu ul li{
     float: left;
@@ -127,7 +130,12 @@ header {
     background: #323941;
 }
 
-
+.carousel_mobile .slick-next {
+    right: 8px;
+}
+.carousel_mobile .slick-next {
+    display: none;
+}
 .catalog figure {
     float: left;
     padding: 9px 13px 14px 13px;
@@ -193,14 +201,16 @@ h1 {
     flex-wrap: nowrap;
     justify-content: space-between; 
 }
-.main .s {
-    float: right;
-}
+
 .wrapper {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
 }
+.tel_mobile, .insta_mobile, .bascet_mobile, .wrapper_img_mobile {
+    display: none;
+}
+
 
 
 
