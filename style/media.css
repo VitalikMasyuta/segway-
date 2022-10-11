@@ -408,3 +408,55 @@
     }
 }
 
+@media (max-width: 320px) {
+    .wrapper_img_mobile {
+        max-width: 320px;
+    }
+    .wrapper_img_mobile .s {
+        max-width: 320px;
+    }
+    .form {
+        max-width: 320px;
+    }
+    .form_button-2 {
+        max-width: 131px;
+    }
+    .payment {
+        max-width: 310px;
+    }
+    .payments {
+        max-width: 310px;
+    }
+    .h_access {
+        font-size: 40px;
+    }
+    .button3_tabs {
+        width: 70px;
+    }
+    .flex {
+        max-width: 320px;
+    }
+    .video h2 {
+        font-size: 39px;
+        max-width: 320px;
+    }
+    .video iframe {
+        max-width: 320px;
+    }
+    .benefits {
+        right: 1px;
+    }
+    .absolute3 {
+        right: 90px;
+    }
+    .absolute6 {
+        left: 80px;
+    }
+    .absolute7 {
+        left: 109px;
+    }
+    .in_tabs .tabs_eart {
+        width: 320px;
+    }
+}
+
